@@ -1,0 +1,3 @@
+Added 1st line.
+conflict line
+conflict line2
