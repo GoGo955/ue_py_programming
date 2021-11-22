@@ -70,7 +70,7 @@ class Order:
             self.order_date = order_date
 
     def __str__(self):
-        return f'This is {self.student}s order from {self.order_date}. He/she order {self.books}. It will be handled by {self.employee}'
+        return f'This is {self.student}s order from {self.order_date}. He/she order {self.books}. Order will be handled by {self.employee}'
 
 
 if __name__ == "__main__":
