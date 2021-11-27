@@ -7,7 +7,7 @@ class Student:
     def __str__(self):
         return f'Student {self.name} with mark {self.marks}'
 
-    def is_passed(self):
+    def is_passed(self) -> bool:
         return self.marks > 50
 
 if __name__ == "__main__":
