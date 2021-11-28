@@ -10,6 +10,7 @@ class Student:
     def is_passed(self) -> bool:
         return self.marks > 50
 
+
 if __name__ == "__main__":
     stud1 = Student("Bob Ross", 74)
     stud2 = Student("Rob Boss", 35)
