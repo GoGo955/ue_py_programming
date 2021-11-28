@@ -7,9 +7,10 @@ def for_with_range() -> None:
         Does not return anything
     """
     # prints every second element
-    for  idx, num in enumerate(range(1,11)):
+    for idx, num in enumerate(range(1, 11)):
         if idx % 2 == 0:
             print(num)
+
 
 if __name__ == "__main__":
     for_with_range()
