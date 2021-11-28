@@ -1,0 +1,2 @@
+from magazine import Product
+
