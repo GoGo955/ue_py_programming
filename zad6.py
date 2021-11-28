@@ -1,4 +1,4 @@
-def set_to_third(first_list:list, second_list:list) -> list:
+def set_to_third(first_list: list, second_list: list) -> list:
     """
     Functions extend first list with second.
     Then it creates a set of it, and raise 2 each element to second power.
@@ -13,4 +13,4 @@ def set_to_third(first_list:list, second_list:list) -> list:
 
 
 if __name__ == "__main__":
-    print(set_to_third([1,2,3], [1,2,3,4]))
+    print(set_to_third([1, 2, 3], [1, 2, 3, 4]))

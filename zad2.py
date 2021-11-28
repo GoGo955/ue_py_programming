@@ -1,4 +1,4 @@
-def multiply(num1: int, num2:int) -> int:
+def multiply(num1: int, num2: int) -> int:
     """
     Function multiplies 2 numbers.
     Params:
@@ -8,6 +8,7 @@ def multiply(num1: int, num2:int) -> int:
         (int): result of multiplication
     """
     return num1 * num2
+
 
 if __name__ == "__main__":
     print(multiply(3, 5))

@@ -1,4 +1,4 @@
-def divisible_by_2(num1:int) -> bool:
+def divisible_by_2(num1: int) -> bool:
     """
     Function tells you if your number is divisible by 2.
     Params:

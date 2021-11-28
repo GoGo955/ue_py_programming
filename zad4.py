@@ -1,4 +1,4 @@
-def sum_of_two_bigger_than_third(num1:int, num2:int, num3:int) -> bool:
+def sum_of_two_bigger_than_third(num1: int, num2: int, num3: int) -> bool:
     """
     Checks if sum of first to integers is >= 3rd num.
     Params:
@@ -12,4 +12,4 @@ def sum_of_two_bigger_than_third(num1:int, num2:int, num3:int) -> bool:
 
 
 if __name__ == "__main__":
-    print(sum_of_two_bigger_than_third(2,2,5))
+    print(sum_of_two_bigger_than_third(2, 2, 5))

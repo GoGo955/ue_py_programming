@@ -1,4 +1,4 @@
-def int_in_list(list_to_check:list, num:int) -> bool:
+def int_in_list(list_to_check: list, num: int) -> bool:
     """
     Checks if int is in list.
     Params:
@@ -11,5 +11,5 @@ def int_in_list(list_to_check:list, num:int) -> bool:
 
 
 if __name__ == "__main__":
-    print(int_in_list([1,2,3], 4))
-    print(int_in_list([1,2,3], 2))
+    print(int_in_list([1, 2, 3], 4))
+    print(int_in_list([1, 2, 3], 2))

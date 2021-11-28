@@ -2,7 +2,7 @@ def greet(name: str, surname: str) -> str:
     """
     Func greets.
     Params:
-        nane (str): Person's name
+        name (str): Person's name
         surname (str): Person's surname
     Returns:
         (str): greetings
