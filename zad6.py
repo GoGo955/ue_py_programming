@@ -9,7 +9,7 @@ def set_to_third(first_list: list, second_list: list) -> list:
         list: final list
     """
     first_list.extend(second_list)
-    return list({num**2 for num in first_list})
+    return list({num ** 2 for num in first_list})
 
 
 if __name__ == "__main__":

@@ -12,6 +12,6 @@ def divisible_by_2(num1: int) -> bool:
 if __name__ == "__main__":
 
     if divisible_by_2(5):
-        print('Liczba parzysta')
+        print("Liczba parzysta")
     else:
-        print('Liczba nieparzysta')
+        print("Liczba nieparzysta")

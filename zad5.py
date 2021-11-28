@@ -5,7 +5,7 @@ def int_in_list(list_to_check: list, num: int) -> bool:
         list_to_check (list): list to check
         num (int): num to check if in list
     Returns:
-        (bool): 
+        (bool):
     """
     return num in list_to_check
 

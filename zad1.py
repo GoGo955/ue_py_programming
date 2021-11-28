@@ -7,7 +7,7 @@ def greet(name: str, surname: str) -> str:
     Returns:
         (str): greetings
     """
-    return f'Czesc {name} {surname}'
+    return f"Czesc {name} {surname}"
 
 
 if __name__ == "__main__":
