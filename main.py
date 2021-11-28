@@ -76,7 +76,7 @@ class Klient:
 
     def __str__(self):
         return f'{self.imie} {self.nazwisko}, z {self.lokalizacja} (id {self.id}), ' \
-               f'zlozyl zamowienie na {zamowienie[0].nazwa} oraz {zamowienie[1].nazwa}.'
+               f'zlozyl zamowienie na {self.zamowienie[0].nazwa} oraz {self.zamowienie[1].nazwa}.'
 
     @property
     def id(self):
