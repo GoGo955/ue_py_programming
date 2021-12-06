@@ -1,3 +1,6 @@
+from classes.Employee import Employee
+from classes.Book import Book
+
 class Order:
     def __init__(self, employee: Employee, student: str, books: Book, order_date: str):
         self.employee = employee

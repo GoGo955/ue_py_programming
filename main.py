@@ -1,12 +1,12 @@
 from classes.Book import Book
-import classes.Library
+from classes.Library import Library
 from classes.Employee import Employee
 from classes.Order import Order
 
 
 if __name__ == "__main__":
-    lib1 = Library.Library("Atlanta", "6th Ave 43/4", "52-213", "9 AM to 5 PM", "234 233 43")
-    lib2 = Library.Library("Atlanta", "9th Street 3/4", "52-253", "9 AM to 5 PM", "123 535 03")
+    lib1 = Library("Atlanta", "6th Ave 43/4", "52-213", "9 AM to 5 PM", "234 233 43")
+    lib2 = Library("Atlanta", "9th Street 3/4", "52-253", "9 AM to 5 PM", "123 535 03")
 
     book1 = Book(lib1, "12-11-1245", "Dan", "Dan", 122)
     book2 = Book(lib1, "12-11-1245", "Ban", "Ban", 133)

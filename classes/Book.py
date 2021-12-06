@@ -1,3 +1,5 @@
+from classes.Library import Library
+
 class Book:
     def __init__(
         self,
