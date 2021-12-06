@@ -1,2 +1,3 @@
-from magazine import Product
+from magazine.Product import Drink
 
+cola = Drink('cola', 13, 'soft')
