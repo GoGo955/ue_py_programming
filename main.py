@@ -4,7 +4,7 @@ import cv2
 tensorflowNet = cv2.dnn.readNetFromTensorflow('frozen_inference_graph.pb', 'graph.pbtxt')
 
 # Input image
-img = cv2.imread('pics/ppl.jpg')
+img = cv2.imread('pics/street.jpg')
 rows, cols, _ = img.shape
 
 # Use the given image as input
