@@ -14,7 +14,7 @@ tensorflowNet.setInput(cv2.dnn.blobFromImage(img, size=(300, 300), swapRB=True, 
 networkOutput = tensorflowNet.forward()
 
 # Loop on the outputs
-for detection in networkOutput[0,0,:,:]:
+for detection in networkOutput[0, 0, :, :]:
 
     score = float(detection[2])
     if score > 0.3:
@@ -24,7 +24,7 @@ for detection in networkOutput[0,0,:,:]:
         right = detection[5] * cols
         bottom = detection[6] * rows
 
-        #draw a red rectangle around detected objects
+        # draw a red rectangle around detected objects
         cv2.rectangle(
             img, (int(left), int(top)), (int(right), int(bottom)), (0, 0, 255), thickness=2
         )
