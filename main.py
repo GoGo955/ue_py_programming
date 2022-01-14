@@ -4,7 +4,7 @@ import cv2
 tensorflowNet = cv2.dnn.readNetFromTensorflow('frozen_inference_graph.pb', 'graph.pbtxt')
 
 # Input image
-img = cv2.imread('pics/street.jpg')
+img = cv2.imread('pics/cctv.jpg')
 rows, cols, _ = img.shape
 
 # Use the given image as input
@@ -17,7 +17,7 @@ networkOutput = tensorflowNet.forward()
 for detection in networkOutput[0, 0, :, :]:
 
     score = float(detection[2])
-    if score > 0.3:
+    if score > 0.25:
 
         left = detection[3] * cols
         top = detection[4] * rows
