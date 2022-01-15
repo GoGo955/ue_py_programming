@@ -6,4 +6,4 @@ if __name__ == "__main__":
     files = [file.replace("\\", "/") for file in files]
 
     for file in files:
-        img_rec(files)
+        img_rec(file)
