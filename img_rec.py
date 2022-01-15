@@ -1,11 +1,12 @@
 import cv2
 
+
 def img_rec(name: str):
     # Load a model imported from Tensorflow
     tensorflowNet = cv2.dnn.readNetFromTensorflow('frozen_inference_graph.pb', 'graph.pbtxt')
 
     # Input image
-    img = cv2.imread(f'pics/{name}.jpg')
+    img = cv2.imread(name)
     rows, cols, _ = img.shape
 
     # Use the given image as input
