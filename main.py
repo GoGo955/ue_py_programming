@@ -12,7 +12,5 @@ if __name__ == "__main__":
     zam.developer = dev
     zam.dom = zam.get_developer.get_dom
     zam.mieszkanie = zam.get_developer.get_mieszkanie
-    print(zam.oblicz_kwote_zam())
-    print(zam.oblicz_metraz())
-    print(zam)
+    print(zam, f"Kwota zamowienia to {zam.oblicz_kwote_zam()}, a laczny metraz to {zam.oblicz_metraz()}")
 
